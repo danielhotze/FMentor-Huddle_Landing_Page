@@ -65,6 +65,7 @@ body {
 .landing-btn:hover {
     color: white;
     background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
 }
 
 footer {
