@@ -1,3 +1,4 @@
+/* Base CSS and CSS for mobile screen sizes */
 * {
     margin: 0;
 }
@@ -86,11 +87,16 @@ footer {
     color: hsl(300, 69%, 71%);
 }
 
+/* CSS for medium size screens */
 @media (min-width: 800px) {
     body {
         background-image: url(../images/bg-desktop.svg);
         background-size: cover;
         font-size: 1.3rem;
+    }
+
+    .landing-img{
+        max-width: 50vw;
     }
 
     .landing-description {
@@ -99,7 +105,7 @@ footer {
 }
 
 
-
+/* CSS for desktop/big screens */
 @media (min-width: 1300px) {
     body {
         background-image: url(../images/bg-desktop.svg);
@@ -129,7 +135,7 @@ footer {
     }
 
     .landing-img {
-        width: 45vw;
+        min-width: 45vw;
         max-height: unset;
         height: auto;
     }
@@ -156,6 +162,7 @@ footer {
 
 }
 
+/* CSS for the attribution */
 .attribution {
     font-size: 11px;
     text-align: center;
